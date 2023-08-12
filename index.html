@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Personal Portfolio Website - Krishna Kn</title>
+    
+    <!-- Style Css -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  </head>
+<body>
+
+<!-- Header -->
+<div id="header">
+    
+<div class="container">
+
+<nav>
+    <img src="images/logo.png" class="logo">
+    
+    <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i class="fa fa-times" onclick="closemenu()"></i>
+    </ul>
+    <i class="fa fa-bars" onclick="openmenu()"></i>
+</nav>
+
+<div class="header-text">
+    <p>UI/UX Designer</p>
+    <h1>HI, I'm <span>Kevin</span><br>Jen From India</h1>
+</div>
+
+</div>
+
+</div>
+
+<!-- About -->
+<div id="about">
+
+<div class="container">
+
+<div class="row">
+    <div class="about-col-1">
+        <img src="images/user.png">
+    </div>
+    <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et sapien a lorem malesuada venenatis. Etiam laoreet erat lectus, vitae tincidunt tortor luctus sit amet.</p>
+        
+<div class="tab-titles">
+    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+    <p class="tab-links" onclick="opentab('education')">Education</p>
+</div>
+
+<div class="tab-contents active-tab" id="skills">
+    <ul>
+        <li><span>UI?UX</span><br>Desiging Web/App interfaces</li>
+          <li><span>Web Development</span><br>Web app Development</li>
+        <li><span>App Development</span><br>Building Android/iOS apps</li>
+    </ul>
+</div>
+
+<div class="tab-contents" id="experience">
+    <ul>
+        <li><span>2021 - Current</span><br>Desiging Web/App interfaces</li>
+          <li><span>2019 - 2022</span><br>Web app Development</li>
+        <li><span>2016 - 2017</span><br>Building Android/iOS apps</li>
+    </ul>
+</div>
+
+<div class="tab-contents" id="education">
+    <ul>
+        <li><span>2019</span><br>Desiging Web/App interfaces</li>
+          <li><span>2020</span><br>Web app Development</li>
+        <li><span>2021</span><br>Building Android/iOS apps</li>
+    </ul>
+</div>
+        
+    </div>
+</div>
+
+</div>
+
+</div>
+
+<!-- Services-->
+<div id="services">
+
+<div class="container">
+
+<h1 class="sub-title">My Services</h1>
+
+<div class="services-list">
+
+<div>
+<i class="fa fa-code"></i>
+<h2>Web Design</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<a href="#">Learn more</a>
+</div>
+
+<div>
+<i class="fa fa-crop"></i>
+<h2>UI/UX Design</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<a href="#">Learn more</a>
+</div>
+
+<div>
+<i class="fa fa-apple"></i>
+<h2>App Design</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<a href="#">Learn more</a>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Portfolio -->
+<div id="portfolio">
+
+<div class="container">
+    <h1 class="sub-title">My Work</h1>
+
+<div class="work-list">
+
+<div class="work">
+<img src="images/work-1.png">
+
+<div class="layer">
+<h3>Music App</h3>
+<p>The app connects you to the talented people around the world. Download it from play store.</p>
+<a href="#"><i class="fa fa-external-link"></i></a>
+</div>
+
+</div>
+
+<div class="work">
+<img src="images/work-2.png">
+
+<div class="layer">
+<h3>Online Shopping App</h3>
+<p>The app connects you to the talented people around the world. Download it from play store.</p>
+<a href="#"><i class="fa fa-external-link"></i></a>
+</div>
+
+</div>
+
+<div class="work">
+<img src="images/work-3.png">
+
+<div class="layer">
+<h3>Social Media App</h3>
+<p>The app connects you to the talented people around the world. Download it from play store.</p>
+<a href="#"><i class="fa fa-external-link"></i></a>
+</div>
+
+</div>
+
+</div>
+
+<a href="#" class="btn">See more</a>
+
+</div>
+
+</div>
+
+<!-- Contact -->
+<div id="contact">
+
+<div class="container">
+
+<div class="row">
+    <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa fa-paper-plane"></i> contact@example.com</p>
+        <p><i class="fa fa-phone-square"></i> 8628668686</p>
+        <div class="social-icons">
+            <a href=""><i class="fa fa-facebook-square"></i></a>
+            <a href="#"><i class="fa fa-twitter-square"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+    </div>
+    <div class="contact-right">
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+        </form>
+    </div>
+</div>
+
+</div>
+
+<div class="copyright">
+    <p>Copyright Krishna. Made with <i class="fa fa-heart"></i>  by Coders Knowledge</p>
+</div>
+
+</div>
+
+<!-- Index Js -->
+<script src="index.js"></script>
+
+</body>
+</html>
